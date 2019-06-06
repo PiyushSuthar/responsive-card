@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Post body</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+	<style type="text/css">
+		body{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			font-family: 'Roboto', sans-serif;
+		}
+		.post-outer{
+			background-color: #f5f5f5;
+			width: 300px;
+			height: auto;
+			border-radius: 10px;
+		}
+		.post-image{
+			box-shadow: 0 0 30px rgba(16,14,23,.25);
+			width: 300px;
+			border-radius: 10px;
+			margin-left: -20px;
+			margin-top: 20px;
+			transition: box-shadow 0.3s ease-in-out;
+		}
+		.post-image:hover{
+			box-shadow: 0 0 6px 0px rgba(16,14,23,.25);
+		}
+		.author-img{
+
+			width: 50px;
+			border-radius: 50%;
+			margin-left: -70px;
+			margin-top: 10px;
+		}
+		.post-body{
+			display: flex;
+			flex-direction: row;
+			padding: 1rem 1rem 1rem 55px;
+		}
+		.post-meta{
+			color: #8a8a8e;
+			margin-top: -20px;
+		}
+		.post-meta p{
+			font-size: 13px;
+		}
+		.post-meta a{
+			text-decoration: none;
+			color: #8a8a8e;
+			transition: color 0.2s ease-in-out;
+
+		}
+		.post-meta a:hover{
+			color: #6d6d6f;
+		}
+		.post-meta a h2{
+			font-size: 20px;
+		}
+	</style>
+</head>
+<body>
+	<div class="post-outer">
+		<a href="#"><img class="post-image" alt="" src="https://css-tricks.com/wp-content/themes/CSS-Tricks-17/ads/hotjar/hotjar-600x600.png"></a>
+		<div class="post-body">
+			<div class="post-author">
+				<a alt="Piyush Suthar" href="#"><img class="author-img" alt="Piyush Suthar" src="https://raw.githubusercontent.com/PiyushSuthar/piyushsuthar.github.io/master/author.JPG"></a>
+			</div>
+			<div class="post-meta">
+				<a href="#"><h2>How to make a cool card</h2></a>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
